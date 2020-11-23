@@ -18,3 +18,5 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
+- name: Game Of Life Build Badge
+  uses: solidify/github-action-game-of-life@v1.1.1
